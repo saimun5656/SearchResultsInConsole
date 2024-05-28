@@ -54,7 +54,7 @@ This script uses Playwright to search for a query on Google and display the resu
    Modify the search query in the `search.js` script by changing the string `'Playwright JavaScript'` to your desired search term.
 
    ```javascript
-   await page.fill('input[name="q"]', 'Your Search Query Here');
+    await searchInput.fill('Playwright JavaScript');
    ```
 
 ## Notes
