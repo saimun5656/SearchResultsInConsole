@@ -9,7 +9,7 @@ const { chromium } = require('playwright');
     // Navigate to Google
     await page.goto('https://www.google.com');
 
-    // Wait for the page to load (optional)
+    
     await page.waitForTimeout(2000); // Brief wait for page to settle
 
     // Use verified selector for search input
@@ -19,7 +19,7 @@ const { chromium } = require('playwright');
     await searchInput.fill('Playwright JavaScript');
     await searchInput.press('Enter');
 
-    // Wait for search results (optional)
+    
     await page.waitForTimeout(2000); // Brief wait for results to appear
 
     // Extract search result titles and URLs using evaluate
@@ -32,9 +32,11 @@ const { chromium } = require('playwright');
     // Log the search results to the console
     console.log(results);
 
-  } catch (error) {
+  } 
+  catch (error) {
     console.error("Error:", error);
-  } finally {
+  }
+   finally {
     // Always close the browser
     await browser.close();
   }

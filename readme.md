@@ -14,7 +14,7 @@ This script uses Playwright to search for a query on Google and display the resu
    Clone this repository to your local machine using the following command:
 
    ```sh
-   git clone https://github.com/yourusername/playwright-search.git
+   git clone https://github.com/saimun5656/SearchResultsInConsole.git
    ```
 
    Replace `yourusername` with your GitHub username.
